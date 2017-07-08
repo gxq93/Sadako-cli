@@ -1,0 +1,27 @@
+{
+  "name": "Sadako-cli",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gxq93/Sadako-cli.git"
+  },
+  "bin": {
+    "sadako": "./bin/sadako"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gxq93/Sadako-cli/issues"
+  },
+  "homepage": "https://github.com/gxq93/Sadako-cli#readme",
+  "dependencies": {
+    "colors": "^1.1.2",
+    "commander": "^2.9.0",
+    "request": "^2.81.0"
+  }
+}
